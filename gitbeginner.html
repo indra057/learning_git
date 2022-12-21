@@ -1,0 +1,33 @@
+git add . 
+<!-- to add all the files in the staging area for commit -->
+git add  <select particular name>
+    <!-- to add a particular file to the staging area -->
+    git commit - m "m for message to directly commit and in semicolon we can write anything"
+
+
+    vi names.txt 
+    to add anything to the text file that is to add something to names.txt heree
+
+    cat names.txt  to see anything that is written in the file
+
+    git status to see the modified files and see status
+
+    to restore any file from the staging area lets say we want to remove names.txt from staging area than our code should be
+    git restore --staged names.txt
+
+    git log to see all the commits that have been made
+
+
+    suppose you want to reset a file and want to go to the previous version of it just then use git log and copy the code of which version 
+    you want and paste it with the following lke
+    git reset <the code of which you want>
+        and the delted files goes to the unstage area
+
+        git stash     to keep the current code to backstage so that we dont delete it and also we dont add it
+
+        git stash pop   to bring all the code from backstage to the staging area
+
+        git stash clear   to remove all the code that were in the backstage and you cant bring them back again
+
+
+        
